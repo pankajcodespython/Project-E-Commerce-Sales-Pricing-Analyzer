@@ -13,11 +13,17 @@ Data Source: books.toscrape.com — a safe, public practice site built for scrap
 Tech Stack
 
 Tool | Role
+
 Python + Selenium | Web scraping
+
 Python + pandas | Data cleaning & transformation
+
 openpyxl | Excel report with pivot tables & charts
+
 MySQL | Relational database storage & SQL queries
+
 Tableau / Power BI | Interactive dashboard
+
 ---
 Project Structure
 ```
@@ -158,8 +164,14 @@ Budget books (under £15) have strong availability and competitive average ratin
 Skills Demonstrated
 
 Web scraping with Selenium (dynamic waits, multi-page navigation)
+
 Data cleaning with pandas (type conversion, binning, deduplication)
+
 MySQL database design, data loading, and analytical queries
+
 Excel automation with openpyxl (pivot tables, conditional formatting, charts)
+
 Data storytelling with Tableau (filters, KPIs, interactive views)
+
 End-to-end pipeline from raw web data to business insights
+
