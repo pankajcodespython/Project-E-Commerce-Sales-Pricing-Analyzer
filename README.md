@@ -1,6 +1,6 @@
 E-Commerce Sales & Pricing Analyzer
 
-An end-to-end data analytics project demonstrating the core tools used by entry-level data analysts:
+An end-to-end data analytics project demonstrating the core tools used by data analysts:
 
 Python · Selenium · pandas · MySQL · Excel · Tableau
 
