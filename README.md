@@ -1,8 +1,15 @@
 E-Commerce Sales & Pricing Analyzer
 
-An end-to-end data analytics project demonstrating the core tools used by data analysts:
+An end-to-end data analytics portfolio project that simulates a real analyst workflow —
+scraping live web data, cleaning it, storing it in a relational database, and presenting
+insights through Excel reports and a Tableau dashboard.
 
-Python · Selenium · pandas · MySQL · Excel · Tableau
+🔧 Tech Stack
+- Python + Selenium  — multi-page web scraping with explicit waits
+- pandas             — data cleaning, type conversion, binning, deduplication
+- MySQL              — schema design, bulk loading, 10 analytical SQL queries
+- openpyxl           — automated Excel report with pivot tables, charts & KPI cards
+- Tableau            — interactive dashboard (price distribution, ratings, value score)
 
 ---
 Project Overview
@@ -12,20 +19,6 @@ Which product categories are priced competitively, and where should we focus nex
 
 Data Source: books.toscrape.com — a safe, public practice site built for scraping projects.
 
----
-Tech Stack
-
-Tool | Role
-
-Python + Selenium | Web scraping
-
-Python + pandas | Data cleaning & transformation
-
-openpyxl | Excel report with pivot tables & charts
-
-MySQL | Relational database storage & SQL queries
-
-Tableau / Power BI | Interactive dashboard
 
 ---
 Project Structure
