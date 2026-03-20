@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql)
+![Selenium](https://img.shields.io/badge/Selenium-4.x-green?logo=selenium)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 E-Commerce Sales & Pricing Analyzer
 
 An end-to-end data analytics portfolio project that simulates a real analyst workflow —
