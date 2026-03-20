@@ -11,12 +11,13 @@ Data Source: books.toscrape.com — a safe, public practice site built for scrap
 
 ---
 Tech Stack
-Tool	Role
-Python + Selenium	Web scraping
-Python + pandas	Data cleaning & transformation
-openpyxl	Excel report with pivot tables & charts
-MySQL	Relational database storage & SQL queries
-Tableau / Power BI	Interactive dashboard
+
+Tool | Role
+Python + Selenium | Web scraping
+Python + pandas | Data cleaning & transformation
+openpyxl | Excel report with pivot tables & charts
+MySQL | Relational database storage & SQL queries
+Tableau / Power BI | Interactive dashboard
 ---
 Project Structure
 ```
@@ -102,34 +103,60 @@ CREATE TABLE products (
 ```
 ---
 Business Questions Answered (SQL)
+
 Query	Business Question
+
 Q1	Which price tier has the highest average rating?
+
 Q2	Which books offer the best value (high rating, low price)?
+
 Q3	How is pricing distributed across rating levels?
+
 Q4	Which tiers have stock availability issues?
+
 Q5	What does the premium in-stock inventory look like?
+
 Q6	What is the overall quality profile of the catalogue?
+
 Q7	Which expensive books have poor ratings (markdown candidates)?
+
 Q10	Executive summary — all key KPIs in one query
+
 ---
 Tableau Dashboard
+
 Connect Tableau to either:
+
 MySQL directly: Server `localhost`, DB `ecommerce_db`, Table `products`
+
 CSV files: Use `data/tableau_*.csv` files
+
 Recommended views:
+
 Price distribution histogram — where do most books sit?
+
 Rating vs. price scatter plot — does price predict quality?
+
 Price tier treemap — volume and avg rating per tier
+
 Value score bar chart — top books by rating-to-price ratio
+
 Add a Rating filter slider and Price Tier selector as dashboard controls.
+
 ---
 Key Findings (Example)
+
 Mid-range books (£15–35) make up the largest share of the catalogue
+
 5-star books are spread across all price tiers — price does not guarantee quality
+
 Several Premium-tier books (£40+) carry only 1–2 star ratings — markdown candidates
+
 Budget books (under £15) have strong availability and competitive average ratings
+
 ---
 Skills Demonstrated
+
 Web scraping with Selenium (dynamic waits, multi-page navigation)
 Data cleaning with pandas (type conversion, binning, deduplication)
 MySQL database design, data loading, and analytical queries
