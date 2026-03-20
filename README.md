@@ -4,8 +4,11 @@ Python · Selenium · pandas · MySQL · Excel · Tableau
 ---
 Project Overview
 Business Question:  
+
 Which product categories are priced competitively, and where should we focus next quarter?
+
 Data Source: books.toscrape.com — a safe, public practice site built for scraping projects.
+
 ---
 Tech Stack
 Tool	Role
