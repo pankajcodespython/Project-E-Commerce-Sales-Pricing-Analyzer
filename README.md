@@ -64,7 +64,7 @@ pip install -r requirements.txt
 Open `load_to_mysql.py` (or the notebook) and change this line:
 
 ```python
-DB_PASSWORD = "your_password"   # change this to your actual password
+DB_PASSWORD = "Password"   # change this to your actual password
 ```
 
 **3. Make sure MySQL is running on your computer**
