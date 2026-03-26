@@ -1,4 +1,4 @@
-# 📚 Book Store Data Analysis Project
+Book Store Data Analysis Project
 
 Hey! This is a project I built to practice the tools used in data analyst roles.
 The idea was to scrape some real product data, clean it up, store it in a database,
@@ -9,7 +9,7 @@ it's made for scraping projects so there are no issues using it.
 
 ---
 
-## 🛠️ Tools Used
+Tools Used
 
 - **Python + Selenium** — to scrape book listings across multiple pages
 - **pandas** — to clean and transform the raw data
@@ -19,7 +19,7 @@ it's made for scraping projects so there are no issues using it.
 
 ---
 
-## ❓ Questions I Wanted to Answer
+Questions I Wanted to Answer
 
 - Do expensive books actually get better ratings?
 - Which books are the best value for money (5 stars + cheapest price)?
@@ -28,7 +28,7 @@ it's made for scraping projects so there are no issues using it.
 
 ---
 
-## 📁 Project Structure
+Project Structure
 
 ```
 book-analysis/
@@ -116,7 +116,7 @@ CREATE TABLE books (
 
 After running `tableau_export.py`, import the CSV files from the `data/` folder into Tableau.
 
-You can also connect Tableau directly to MySQL — it's actually easier:
+You can also connect Tableau directly to MySQL:
 - Go to **Connect → To a Server → MySQL**
 - Server: `localhost`
 - Database: `bookstore`
@@ -128,7 +128,7 @@ Charts I made for the dashboard:
 - KPI cards — total books, average price, average rating, % in stock
 - Table — top 10 best value books
 
-> *(Add a screenshot of your dashboard here once it's ready!)*
+> 
 
 ---
 
